@@ -1,0 +1,8 @@
+# requirements.txt
+# Hand Gesture Navigation System — Phase 1
+# Install with: pip install -r requirements.txt
+
+opencv-python>=4.8.0      # Webcam capture, frame rendering, drawing utilities
+mediapipe>=0.10.0         # Hand landmark detection (21-point model)
+pyautogui>=0.9.54         # Reserved for Phase 2: mouse & keyboard control
+numpy>=1.24.0             # Array operations (used internally by OpenCV & MediaPipe)
